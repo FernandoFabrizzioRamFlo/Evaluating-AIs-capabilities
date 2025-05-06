@@ -1,0 +1,4 @@
+.Hero-Container{
+    background-image: url("../public/hero-banner.jpg");
+    background-size: cover;
+}

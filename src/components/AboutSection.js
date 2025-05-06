@@ -3,7 +3,7 @@ import React from 'react';
 const AboutSection = () => {
   return (
     /* Sección "Quiénes somos" - Información sobre la empresa */
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" id='about'>
       <div className="container mx-auto px-6">
         {/* Contenedor centrado con ancho máximo */}
         <div className="max-w-3xl mx-auto text-center">

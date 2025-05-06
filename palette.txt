@@ -1,0 +1,4 @@
+uiRed : #FF3131
+uiBlack : #000000
+strokeGray: #838587
+lightBlack: #373435

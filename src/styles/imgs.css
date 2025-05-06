@@ -1,0 +1,17 @@
+.mapa{
+    background-image: url(../public/saltillo-monterrey.png);
+    background-size: cover;
+}
+
+.hiace{
+    background-image: url(../public/toyota-hiace.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.avanza{
+    background-image: url(../public/toyota-avanza.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
