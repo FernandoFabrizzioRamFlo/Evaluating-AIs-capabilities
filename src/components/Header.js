@@ -34,7 +34,7 @@ export default function Header() {
                         <a href="#about" className="Header-Text">Quiénes Somos</a>
                         <a href="#servicios" className="Header-Text">Nuestros Servicios</a>
                         <a href="#flotilla" className="Header-Text">Nuestra Flotilla</a>
-                        <a href="#beneficios" className="Header-Text">¿Por qué Nosotros?</a>
+                        <a href="#beneficios" className="Header-Text">Ventajas</a>
                         <a href="#contacto"className="Header-Text">Contacto</a>
                     </div>
                     <div className="Responsive-Dropdown">

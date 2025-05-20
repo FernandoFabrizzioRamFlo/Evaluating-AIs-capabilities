@@ -11,3 +11,6 @@
     scroll-behavior: smooth;
     --uiRedHover : #d60a0a;
 }
+body{
+    width: 100%;
+}

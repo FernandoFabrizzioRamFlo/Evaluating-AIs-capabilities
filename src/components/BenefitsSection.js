@@ -19,7 +19,7 @@ const BenefitsSection = () => {
 
   return (
     /* Sección de Ventajas - Beneficios de elegir la empresa */
-    <section className="py-20 bg-gray-50" id=''>
+    <section className="py-20 bg-gray-50" id='beneficios'>
       <div className="container mx-auto px-6">
         {/* Título de sección */}
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Nuestras ventajas</h2>
