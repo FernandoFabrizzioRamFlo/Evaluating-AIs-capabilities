@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/imgs.css"
 
 const FleetSection = () => {
   // Datos de los vehículos de la flota
@@ -7,19 +8,19 @@ const FleetSection = () => {
       name: "Toyota Hiace",
       capacity: "15 pasajeros",
       features: ["Asientos ergonómicos", "Aire acondicionado", "Amplio espacio para equipaje"],
-      image: "https://via.placeholder.com/600x400?text=Toyota+Hiace"
+      image: "hiace"
     },
     {
       name: "Toyota Avanza",
       capacity: "7 pasajeros",
       features: ["Confort premium", "Sistema de entretenimiento", "WiFi a bordo"],
-      image: "https://via.placeholder.com/600x400?text=Toyota+Avanza"
+      image: "avanza"
     }
   ];
 
   return (
     /* Sección de Flota - Muestra los vehículos disponibles */
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" id='flotilla'>
       <div className="container mx-auto px-6">
         {/* Título de sección */}
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Nuestra flota</h2>
@@ -30,7 +31,7 @@ const FleetSection = () => {
             /* Tarjeta de vehículo individual */
             <div key={index} className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
               {/* Imagen del vehículo */}
-              <img src={vehicle.image} alt={vehicle.name} className="w-full h-64 object-cover" />
+              <div className= {`w-full h-[400px] ${vehicle.image}`} ></div> 
               
               {/* Contenido de la tarjeta */}
               <div className="p-6">
@@ -38,7 +39,7 @@ const FleetSection = () => {
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">{vehicle.name}</h3>
                 
                 {/* Capacidad del vehículo */}
-                <p className="text-blue-600 font-medium mb-4">Capacidad: {vehicle.capacity}</p>
+                <p className="text-[--uiRed] font-medium mb-4">Capacidad: {vehicle.capacity}</p>
                 
                 {/* Lista de características */}
                 <ul className="space-y-2">

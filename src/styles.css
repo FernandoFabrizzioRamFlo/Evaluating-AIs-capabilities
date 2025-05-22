@@ -1,4 +1,16 @@
 
-            @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --uiRed : #FF3131;
+    --uiBlack : #000000;
+    --strokeGray: #838587;
+    --lightBlack: #373435;
+    scroll-behavior: smooth;
+    --uiRedHover : #d60a0a;
+}
+body{
+    width: 100%;
+}
